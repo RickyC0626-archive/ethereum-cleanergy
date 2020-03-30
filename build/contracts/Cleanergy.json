@@ -1,0 +1,342 @@
+{
+  "contractName": "Cleanergy",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/c/Users/ricky/Desktop/Computer Science/Personal Projects/Ethereum-Cleanergy/contracts/Cleanergy.sol\":\"Cleanergy\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/c/Users/ricky/Desktop/Computer Science/Personal Projects/Ethereum-Cleanergy/contracts/Cleanergy.sol\":{\"keccak256\":\"0xbe80b6ba3265d43751d65f73359aa75cd2a0aa6e9f44434dbf9792c3c1f0a333\",\"urls\":[\"bzz-raw://4ec0b370bec9272556e0ab7bc9378074c8995f9f76f492e113f2aaded2b5aea2\",\"dweb:/ipfs/QmVzQxAbwcY2PfDhmNdVmiMLrrdnXARrceDJNsn2VRnptY\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a7231582083bc38002829ac3a5cd803fd7497b2c4591be76405ed5f400c1390d473a2695864736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a7231582083bc38002829ac3a5cd803fd7497b2c4591be76405ed5f400c1390d473a2695864736f6c63430005100032",
+  "sourceMap": "37:183:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;37:183:0;;;;;;;",
+  "deployedSourceMap": "37:183:0:-;;;;;",
+  "source": "pragma solidity >=0.4.17 < 0.7.0;\r\n\r\ncontract Cleanergy\r\n{\r\n    // Model a consumer\r\n    struct Consumer\r\n    {\r\n        uint id;\r\n        string name;\r\n        string city;\r\n        uint energyConsumptionRate;\r\n    }\r\n}",
+  "sourcePath": "/mnt/c/Users/ricky/Desktop/Computer Science/Personal Projects/Ethereum-Cleanergy/contracts/Cleanergy.sol",
+  "ast": {
+    "absolutePath": "/mnt/c/Users/ricky/Desktop/Computer Science/Personal Projects/Ethereum-Cleanergy/contracts/Cleanergy.sol",
+    "exportedSymbols": {
+      "Cleanergy": [
+        11
+      ]
+    },
+    "id": 12,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".17",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 11,
+        "linearizedBaseContracts": [
+          11
+        ],
+        "name": "Cleanergy",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Cleanergy.Consumer",
+            "id": 10,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "id",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "121:7:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "121:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "139:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "139:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 7,
+                "name": "city",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "161:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 6,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "161:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 9,
+                "name": "energyConsumptionRate",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "183:26:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 8,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "183:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Consumer",
+            "nodeType": "StructDefinition",
+            "scope": 11,
+            "src": "89:128:0",
+            "visibility": "public"
+          }
+        ],
+        "scope": 12,
+        "src": "37:183:0"
+      }
+    ],
+    "src": "0:220:0"
+  },
+  "legacyAST": {
+    "absolutePath": "/mnt/c/Users/ricky/Desktop/Computer Science/Personal Projects/Ethereum-Cleanergy/contracts/Cleanergy.sol",
+    "exportedSymbols": {
+      "Cleanergy": [
+        11
+      ]
+    },
+    "id": 12,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".17",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 11,
+        "linearizedBaseContracts": [
+          11
+        ],
+        "name": "Cleanergy",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Cleanergy.Consumer",
+            "id": 10,
+            "members": [
+              {
+                "constant": false,
+                "id": 3,
+                "name": "id",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "121:7:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 2,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "121:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 5,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "139:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 4,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "139:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 7,
+                "name": "city",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "161:11:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 6,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "161:6:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 9,
+                "name": "energyConsumptionRate",
+                "nodeType": "VariableDeclaration",
+                "scope": 10,
+                "src": "183:26:0",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 8,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "183:4:0",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Consumer",
+            "nodeType": "StructDefinition",
+            "scope": 11,
+            "src": "89:128:0",
+            "visibility": "public"
+          }
+        ],
+        "scope": 12,
+        "src": "37:183:0"
+      }
+    ],
+    "src": "0:220:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-03-30T05:29:06.866Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

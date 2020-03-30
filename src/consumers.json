@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "name": "admin",
+    "city": "New York",
+    "energyConsumptionrate": 0
+  },
+  {
+    "id": 1,
+    "name": "John Doe",
+    "city": "New York",
+    "energyConsumptionrate": 235
+  },
+  {
+    "id": 2,
+    "name": "Jane Doe",
+    "city": "New York",
+    "energyConsumptionrate": 225
+  },
+  {
+    "id": 3,
+    "name": "Bill Smith",
+    "city": "New York",
+    "energyConsumptionrate": 345
+  },
+  {
+    "id": 4,
+    "name": "Will Shake",
+    "city": "New York",
+    "energyConsumptionrate": 564
+  },
+  {
+    "id": 5,
+    "name": "guest",
+    "city": "New York",
+    "energyConsumptionrate": 111
+  }
+]
