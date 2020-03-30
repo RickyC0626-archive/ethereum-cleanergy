@@ -16,3 +16,6 @@ Dependencies:
 - Ganache: locally run Ethereum blockchain for testing and contract deployment https://www.trufflesuite.com/ganache
 - Metamask: Google Chrome browser extension that provides a crypto wallet for dApp testing https://metamask.io/
 - web3.js: Ethereum JavaScript API https://web3js.readthedocs.io/en/v1.2.6/
+
+Sources:
+- Ethereum Cryptocurrency Tutorial: https://www.youtube.com/watch?v=XdKv5uwEk5A
