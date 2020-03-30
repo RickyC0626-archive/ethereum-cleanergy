@@ -19,3 +19,17 @@ Dependencies:
 
 Sources:
 - Ethereum Cryptocurrency Tutorial: https://www.youtube.com/watch?v=XdKv5uwEk5A
+
+## Instructions
+Install Truffle and Ganache via the links provided
+`npm install truffle`
+
+Deploy the contracts (make sure Ganache is running)
+`truffle migrate --reset`
+
+Test the contracts for integrity
+`truffle test`
+
+**Unfortunately due to circumstances, the web app is no longer functioning, but the contracts can still be deployed locally and tested.**
+Run the web app locally
+`npm run dev`
