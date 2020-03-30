@@ -31,5 +31,6 @@ Test the contracts for integrity
 `truffle test`
 
 **Unfortunately due to circumstances, the web app is no longer functioning, but the contracts can still be deployed locally and tested.**
+
 Run the web app locally
 `npm run dev`
